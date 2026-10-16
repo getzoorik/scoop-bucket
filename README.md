@@ -7,9 +7,19 @@ scoop bucket add getzoorik https://github.com/getzoorik/scoop-bucket
 scoop install zoorikctl
 ```
 
-`bucket/zoorikctl.json` is written by the release workflow in `getzoorik/coral`. Do not hand-edit it —
-its `hash` values come from the release's signed `checksums.txt`.
-
 Scoop is the Windows path because a bucket needs nobody's approval: publishing is a push, with no
 account, no review queue and no publisher identity. winget and Chocolatey both add a moderation
 queue per version.
+
+## Changes and issues
+
+Each zoorikctl release generates `bucket/zoorikctl.json` and commits it here, so please do not edit it
+by hand. Its `hash` values come from the release's signed `checksums.txt`.
+
+To change the manifest or zoorikctl itself, open an issue or a pull request in
+[getzoorik/zoorikctl](https://github.com/getzoorik/zoorikctl). Issues about installing with Scoop are
+welcome here.
+
+## License
+
+Apache-2.0, see [LICENSE](LICENSE). Copyright 2026 Zoorik Private Limited.
