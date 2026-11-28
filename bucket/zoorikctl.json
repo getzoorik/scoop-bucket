@@ -1,16 +1,16 @@
 {
-    "version": "0.5.2",
+    "version": "0.6.0",
     "description": "Connect a Kubernetes cluster to Zoorik",
     "homepage": "https://zoorik.com",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/getzoorik/zoorikctl/releases/download/v0.5.2/zoorikctl_v0.5.2_windows_amd64.zip",
-            "hash": "a205e91e926ea426cc123cd2c9709e35f28b2ebf786a6dd515d8d3bd93b0c34e"
+            "url": "https://github.com/getzoorik/zoorikctl/releases/download/v0.6.0/zoorikctl_v0.6.0_windows_amd64.zip",
+            "hash": "9af1302b94dfa268b8c0850138ec83cb5cb3e15bcd711a27cdb5b0dea479dfc9"
         },
         "arm64": {
-            "url": "https://github.com/getzoorik/zoorikctl/releases/download/v0.5.2/zoorikctl_v0.5.2_windows_arm64.zip",
-            "hash": "5d7df4263725930b793f9705429b5cd2bf3accfc2aa59a6f2b728389045f821f"
+            "url": "https://github.com/getzoorik/zoorikctl/releases/download/v0.6.0/zoorikctl_v0.6.0_windows_arm64.zip",
+            "hash": "f49a04845905da1cbf285ae3a8af4406261b408e85d6415a4d8d2b8843b0c48c"
         }
     },
     "bin": "zoorikctl.exe"
